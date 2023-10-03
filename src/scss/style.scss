@@ -80,7 +80,6 @@ body {
 .block_moment {
     width: 100%;
     height: 685px;
-    padding: 46px 78px;
 
     .line {
         border-top: #fec96b 3px solid;
@@ -104,5 +103,84 @@ body {
         border: none;
         padding: 9px 37px;
         margin-top: 20px;
+    }
+
+    .number_person {
+        height: 685px;
+        background-color: #ed6967;
+        margin: auto;
+
+        path {
+
+            fill: white !important;
+
+        }
+    }
+
+    .number_volontareers {
+        padding: 30px;
+
+        h1 {
+            margin-top: 43px;
+            margin-left: -14px;
+            font-size: 59px;
+            text-align: center;
+        }
+
+        svg {
+            font-size: 40px;
+            margin-left: 15px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            margin-top: -9px;
+            font-size: 24px;
+        }
+    }
+
+    .number_project {
+        padding: 30px;
+
+        h1 {
+            font-size: 62px;
+            margin-top: -18px;
+            margin-left: -25px;
+            text-align: center;
+        }
+
+        svg {
+            font-size: 39px;
+            margin-top: -5px;
+            margin-left: 25px;
+        }
+
+        p {
+            margin-top: -9px;
+            font-size: 24px;
+        }
+    }
+
+    .number_donation {
+        padding: 30px;
+
+        h1 {
+            font-size: 58px;
+            margin-top: -21px;
+            margin-left: -22px;
+            text-align: center;
+        }
+
+        svg {
+            font-size: 48px;
+            margin-top: -5px;
+            margin-left: 20px;
+        }
+
+        p {
+            margin-top: -6px;
+            font-size: 24px;
+            margin-left: 38px;
+        }
     }
 }
