@@ -1,1 +1,78 @@
 @use '../../node_modules/bootstrap/scss/bootstrap.scss' as *;
+
+body {
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.block {
+    width: 100%;
+    height: 900px;
+    background-image: url(src/assets/img/HelloIMG1669149393797.jpeg);
+    background-size: cover;
+    background-position-y: -120px;
+
+
+    button {
+        color: white;
+        padding: 9px 33px;
+        background-color: #fec96b;
+        border: none;
+        margin-right: 37px;
+        margin-top: 24px;
+    }
+
+    img {
+        width: 249px;
+        height: auto;
+        margin-left: 38px;
+        margin-top: 20px;
+    }
+}
+
+.background_image {
+    opacity: 0.3;
+    position: absolute;
+}
+
+.list_menu {
+    list-style-type: none;
+    margin-top: 40px;
+
+    li {
+        margin-right: 81px;
+    }
+}
+
+.central_header {
+    text-align: center;
+    margin-top: 193px;
+
+    h1 {
+        color: white;
+        font-size: 80px;
+
+    }
+
+    p {
+        color: white;
+        margin-top: 13px;
+        font-size: 23px;
+    }
+
+    .button_mission {
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        padding: 9px 37px;
+        font-size: 16px;
+        margin-left: 40px;
+    }
+
+    button {
+        background-color: transparent;
+        border: #fec96b 1px solid;
+        color: #fec96b;
+        margin-left: -15px;
+    }
+}
