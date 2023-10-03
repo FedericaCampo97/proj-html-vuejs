@@ -76,3 +76,33 @@ body {
         margin-left: -15px;
     }
 }
+
+.block_moment {
+    width: 100%;
+    height: 685px;
+    padding: 46px 78px;
+
+    .line {
+        border-top: #fec96b 3px solid;
+        width: 200px;
+        height: 4px;
+        margin-top: 27px;
+    }
+
+    p {
+        margin-top: 42px;
+        line-height: 33px;
+    }
+
+    .text_2 {
+        margin-top: 26px;
+    }
+
+    button {
+        background-color: #fec96b;
+        color: white;
+        border: none;
+        padding: 9px 37px;
+        margin-top: 20px;
+    }
+}
