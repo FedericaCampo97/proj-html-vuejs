@@ -272,3 +272,25 @@ body {
     max-width: 1534px;
     margin: 86px auto;
 }
+
+.block_pink {
+    width: 100%;
+    background-color: #ed6967;
+    margin-top: 131px;
+    padding: 59px;
+    color: white;
+}
+
+.articles {
+    .line2 {
+        border-top: #fec96b 3px solid;
+        width: 200px;
+        height: 4px;
+        margin: 26px auto 0px auto;
+    }
+
+    p {
+        font-size: 23px;
+    }
+
+}

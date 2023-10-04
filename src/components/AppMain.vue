@@ -157,6 +157,17 @@ export default {
                 </div>
             </div>
         </div>
+        <div class="block_pink text-center">
+            <h4>VIEW ALL OUR CAUSES</h4>
+        </div>
+        <div>
+            <div class="articles text-center mt-5 pt-5">
+                <h1>LATEST ARTICLES</h1>
+                <div class="line2"></div>
+                <p>Together we make all the difference</p>
+            </div>
+
+        </div>
     </div>
 </template>
 
