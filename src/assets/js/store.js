@@ -18,5 +18,9 @@ export const store = reactive({
             text: 'JOURNAL',
             active: false,
         }
+    ],
+    imgRecentCauses: [
+        'HelloIMG1669149317319.jpeg', 'HelloIMG1669149318263.jpeg', 'HelloIMG1669149319450.jpeg', 'HelloIMG1669149321401.jpeg'
     ]
+
 })
