@@ -77,6 +77,40 @@ body {
     }
 }
 
+.button_fixed {
+    position: fixed;
+    right: 15px;
+    top: 150px;
+
+    button {
+        background-color: white;
+        border-radius: 7px;
+        height: 65px;
+        width: 65px;
+        border: 1px solid white;
+        margin-bottom: 10px;
+        z-index: 9999999999999;
+        padding: 7px;
+
+        svg {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 11px;
+            color: #262e44;
+            margin-top: 7px;
+        }
+
+        path {
+
+            fill: #262e44 !important;
+
+        }
+    }
+
+}
+
 .block_moment {
     width: 100%;
 
@@ -105,30 +139,36 @@ body {
     }
 
     .background_image_world {
+        position: relative;
         background-color: #ed6967;
+        z-index: -4;
+
     }
 
     .number_person {
         height: 100%;
+        width: 100%;
         margin: auto;
+        padding-top: 70px;
         background-image: url(src/assets/img/HelloIMG1669149365035.jpeg);
         background-size: 700%;
         background-position-x: 25%;
         background-position-y: 20%;
         opacity: 0.1;
+        position: absolute;
+    }
 
-        path {
+    path {
 
-            fill: white !important;
+        fill: white !important;
 
-        }
     }
 
     .number_volontareers {
         padding: 30px;
 
         h1 {
-            margin-top: 43px;
+            margin-top: 90px;
             margin-left: -14px;
             font-size: 59px;
             text-align: center;
