@@ -384,3 +384,42 @@ body {
         margin-top: 12px;
     }
 }
+
+.end_block {
+    width: 100%;
+    background-color: #e5e5e599;
+    color: #7f848a;
+
+    path {
+
+        fill: #7f848a !important;
+
+    }
+
+    p {
+        font-size: 14px;
+        margin-top: 31px;
+
+        span {
+            color: #fec96b;
+            cursor: pointer;
+        }
+    }
+
+    .block_svg {
+        svg {
+            font-size: 25px;
+            margin-left: 23px;
+            margin-top: 13px;
+            margin-right: 3px;
+            cursor: pointer;
+
+            path {
+
+                fill: #fec96b !important;
+
+            }
+        }
+    }
+
+}
