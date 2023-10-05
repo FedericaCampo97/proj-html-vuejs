@@ -189,6 +189,22 @@ export default {
                     </div>
                 </div>
             </div>
+            <div class="d-flex align-items-center justify-content-center block_our_articles p-3">
+                <h5 class="text-white">VIEW ALL OUR ARTICLES</h5>
+            </div>
+        </div>
+        <div class="block_change text-center">
+            <h1 class="text-white">CHANGE A LIFE TODAY</h1>
+
+            <div class="line3"></div>
+            <p class="text-white">As long as poverty, injustice & inequality persist, none of us can truly rest. It doesn't
+                take much to change
+                a life. Get in touch today and start making the difference.</p>
+            <div class="d-flex block_button justify-content-center">
+                <button class="text-white">VOLUNTEER</button>
+                <button class="text-white">DONATE NOW</button>
+
+            </div>
         </div>
     </div>
 </template>

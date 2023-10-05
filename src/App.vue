@@ -20,7 +20,6 @@ export default {
 </script>
 
 <template>
-  <!-- <img src="./assets/img/Screencapture.png" alt="" class="background_image"> -->
   <AppHeader :navList="store.listNav" />
   <AppMain :imgRecentCauses="store.imgRecentCauses" :listCards="store.listCards" />
   <AppFooter />
