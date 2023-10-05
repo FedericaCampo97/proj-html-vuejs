@@ -291,6 +291,45 @@ body {
 
     p {
         font-size: 23px;
+
     }
 
+}
+
+.card_img {
+    width: 94%;
+    margin-top: 15px;
+    margin-left: 23px;
+    cursor: pointer;
+
+    h5 {
+        color: #fec96b;
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    p {
+        margin-top: 10px;
+        text-align: left;
+    }
+}
+
+.block_card {
+    img {
+        width: 144px;
+        height: 118px;
+        cursor: pointer;
+
+        &:hover {
+            width: 153px;
+            height: 125px;
+            box-shadow: inset -1px 3px 8px 5px #7f848a, 2px 5px 16px 0px #525354, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+        }
+    }
+
+    h5 {
+        text-align: left;
+        color: #fec96b;
+        cursor: pointer;
+    }
 }

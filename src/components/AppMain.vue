@@ -5,7 +5,7 @@ export default {
 
         }
     },
-    props: ['imgRecentCauses']
+    props: ['imgRecentCauses', 'listCards']
 }
 </script>
 
@@ -166,7 +166,29 @@ export default {
                 <div class="line2"></div>
                 <p>Together we make all the difference</p>
             </div>
-
+            <div class="container text-center mt-3 p-5">
+                <div class="row d-flex">
+                    <div class="col-6">
+                        <div class="card card_img">
+                            <img src="../assets/img/HelloIMG1669149322752.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body p-4">
+                                <h5 class="card-title">Understanding community complexit es</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="d-flex block_card p-3" v-for="element in listCards">
+                            <img :src="'src/assets/img/' + element.img" alt="">
+                            <div class="ms-3 mt-1">
+                                <h5>{{ element.title }}</h5>
+                                <p class="mt-1 text-start">{{ element.text }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>

@@ -25,8 +25,6 @@ export default {
             <button class="button_mission">OUR MISSION</button>
             <button>DONATE NOW</button>
         </div>
-
-
     </div>
 </template>
 <style></style>
